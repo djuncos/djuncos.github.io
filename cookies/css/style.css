@@ -1,0 +1,275 @@
+.greetingText{
+
+
+	
+}
+
+#cookieStoreSign{
+
+	background-image: url("../img/cookieSign.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 700px 100px;
+	width: 100%;
+	height: 200px;
+	margin: auto 0;
+	margin-top: -4%;
+	/*border: black dotted 2px;*/
+}
+
+#outerContain{
+
+	/*border: black dotted 2px;*/
+
+}
+
+
+#container{
+
+	
+	margin-left: 27%;
+	margin-right: 2%;
+	margin-top: 0;
+	position: absolute;
+ 	height: auto;
+	width: auto;
+	display: block;
+	min-height: 155px;
+	min-width: auto;
+	padding-left: 30px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	padding-right: 0px;
+	text-align: center;
+	line-height: 100px;
+	background-color: #fff;
+	border: 8px solid black;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+  	-webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+ 	box-shadow: 2px 2px 4px #888;
+ 	z-index: 2;
+ 	background-position: center;
+ 	float: left;
+
+
+
+}
+
+.C{
+	background-image: url("../img/c1.jpg");
+	background-repeat: no-repeat;
+	/*background-size: 70%;*/
+
+	margin: 0% 0% 0 0;
+	width: 110px;
+	height: 137px;
+	float: left;
+	overflow: hidden;
+	transition-property: background-image;
+	position: relative;
+	/*border: black dotted 2px;*/
+
+}
+
+.blueO{
+	background-image: url("../img/o-blue3.jpg");
+	background-repeat: no-repeat;
+	background-position: 40% 75%;
+	/*background-size: 70%*/
+
+	margin: 37px 0% 0 0;
+	width: 85px;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+	transition-property: background-image;
+	cursor: pointer;
+	/*position: absolute;*/
+	/*border: black dotted 2px;*/
+
+}
+
+.redO{
+	background-image: url("../img/o-red3.jpg");
+	background-repeat: no-repeat;
+	background-position: 40% 75%;
+
+	margin: 37px 0% 0 0;
+	width: 85px;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+	transition-property: background-image;
+	cursor: pointer;
+	/*border: black dotted 2px;*/
+
+}
+
+.greenO{
+	background-image: url("../img/o-green3.jpg");
+	background-repeat: no-repeat;
+	background-position: 40% 75%;
+
+	margin: 37px 0% 0 0;
+	width: 85px;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+	transition-property: background-image;
+	cursor: pointer;
+	/*border: black dotted 2px;*/
+
+}
+
+#insert{
+
+
+	display: inline;
+}
+
+.kies{
+	background-image: url("../img/kies1.jpg");
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+
+	margin: 0% 0% 0 0;
+	width: 320px;
+	height: 140px;
+	float: left;
+	overflow: hidden;
+	transition-property: background-image;
+	border-radius: 30px;
+	/*position: relative;*/
+	/*display: inline;*/
+	/*border: black dotted 2px;*/
+
+
+}
+
+#selfie{
+
+	background-image: url("../img/Danpic11.jpg");
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 380px;
+	float: left;
+	margin: 85px 30% 0 6%;
+	/*border: black solid 2px;*/
+	z-index: 0;
+	position: relative;
+	clear: left;
+	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#cookieCount{
+
+	margin-left: 40px;
+	margin-top: -35px;
+	float: left;
+	position: absolute;
+	z-index: 3;
+
+
+}
+
+
+#littleBlue{
+
+	width: 50px;
+	height: 50px;
+	background-size: 50px;
+	margin: auto;
+	position: static;
+	padding-right: 10px;
+
+
+	
+}
+
+
+#littleRed{
+
+	width: 50px;
+	height: 50px;
+	background-size: 50px;
+	margin: auto;
+	
+}
+
+#littleGreen{
+
+	width: 50px;
+	height: 50px;
+	background-size: 50px;
+	margin: auto;
+	
+}
+
+
+#mnm{
+
+	width: 200px;
+	height: 49px;
+	border: black solid 1px;
+}
+
+#chocolate{
+
+	width: 200px;
+	height: 49px;
+	border: black solid 1px;
+}
+
+#sugar{
+
+	width: 200px;
+	height: 49px;
+	border: black solid 1px;
+}
+
+#blueCount{
+
+	text-align: center;
+	vertical-align: text-bottom;
+	font-family: serif;
+	font-size: 20px;
+	font-weight: bold;
+	
+
+}
+
+#redCount{
+
+	text-align: center;
+	vertical-align: text-bottom;
+	font-family: serif;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+#greenCount{
+
+	text-align: center;
+	vertical-align: text-bottom;
+	font-family: serif;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+#clearButton{
+
+	float: right;
+	margin-top: -2%;
+	margin-right: 40px;
+}
