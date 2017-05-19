@@ -4174,8 +4174,13 @@ nav .button-collapse i {
 
 nav .brand-logo {
   position: absolute;
+<<<<<<< HEAD
   /*color: #ffffff;*/
   /*color: #eceff1;*/
+=======
+  /*color: #fff;*/
+  color: #eceff1;
+>>>>>>> 429f4fff181c52a7f47d1f09842eb7fa02b340fd
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
@@ -4368,7 +4373,11 @@ a {
 html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
+<<<<<<< HEAD
   font-weight: condensed;
+=======
+  font-weight: normal;
+>>>>>>> 429f4fff181c52a7f47d1f09842eb7fa02b340fd
   color: rgba(0, 0, 0, 0.87);
 }
 
