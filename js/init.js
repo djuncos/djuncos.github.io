@@ -13,13 +13,6 @@
 			  opacity: function() {
 			    var elementHeight = $(this).height(),
 			    	opacity = scrollTop/600;
-			        // opacity = scrollTop/(elementHeight - pageHeight);
-
-			        // console.log("pageHeight = "+pageHeight);
-			        // console.log("elementHeight = "+elementHeight);
-			        // console.log("opacity = "+opacity);
-			        // console.log("scrollTop = "+scrollTop);
-
 			    return opacity;
 			  }
 		   });
@@ -28,13 +21,6 @@
 			  opacity: function() {
 			    var elementHeight = $(this).height(),
 			    	opacity = scrollTop/600 - 2.5;
-			        // opacity = scrollTop/(elementHeight - pageHeight);
-
-			        // console.log("pageHeight = "+pageHeight);
-			        // console.log("elementHeight = "+elementHeight);
-			        // console.log("opacity = "+opacity);
-			        // console.log("scrollTop = "+scrollTop);
-
 			    return opacity;
 			  }
 		   });
@@ -43,13 +29,6 @@
 			  opacity: function() {
 			    var elementHeight = $(this).height(),
 			    	opacity = scrollTop/600 - 4.5;
-			        // opacity = scrollTop/(elementHeight - pageHeight);
-
-			        // console.log("pageHeight = "+pageHeight);
-			        // console.log("elementHeight = "+elementHeight);
-			        // console.log("opacity = "+opacity);
-			        // console.log("scrollTop = "+scrollTop);
-
 			    return opacity;
 			  }
 		   });
