@@ -7,30 +7,47 @@
  */
 .nice-header {
   position: relative;
- /* height: 1200px;
-  background: center center;
-  background-size: cover;
-  background-image: url(../img/rock.jpg);
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: center center;
-  background-size: cover;*/
-  /*background-image: url(../img/rock.jpg);*/
   opacity: 1.0;
   z-index: -1;
 }
 
 .header-overlay {
-  /*position: fixed;*/
   position: absolute;
- /* top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: center center;
-  background-size: cover;
-  background-image: url(../img/rock.jpg);*/
   opacity: 0.0;
   z-index: 0;
+}
+
+.oldMan{
+
+  font-family: OldManEloquentW01-Reg;
+}
+
+@font-face {
+  font-family: 'BenjaminFranklin';
+  src: url('../css/Benjamin-Franklin.ttf.eot');
+  src: url("../css/Benjamin-Franklin.ttf.woff") format("woff"),
+    url("../css/Benjamin-Franklin.ttf.svg") format("svg");
+}
+
+
+
+.parchment1{
+
+  background-image: url("../img/paper3.jpg");
+  background-size: cover;
+
+}
+
+.parchment2{
+
+  background-image: url("../img/paper5.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+
+}
+
+.ike:hover {
+    cursor:pointer;
 }
 
 .parallax1 {
@@ -38,6 +55,7 @@
 
     /*bottom: 25%;*/
 }
+
 
 
 nav ul a,
@@ -54,7 +72,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 800px;
+  min-height: 600px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
