@@ -64,6 +64,12 @@
     /*bottom: 25%;*/
 }
 
+.hiddenClass{
+
+  opacity: 0;
+
+}
+
 
 
 nav ul a,
