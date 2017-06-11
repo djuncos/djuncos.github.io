@@ -15,6 +15,10 @@
   position: absolute;
   opacity: 0.0;
   z-index: 0;
+  opacity: 0.0;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
 }
 
 .oldMan{
@@ -72,13 +76,35 @@
 
 .linkClass {
   color: #000;
-  transition: background 0.1s linear;
+  transition: background 0.18s linear;
 }
 
 
 .linkClass:hover {
 
   background-color: #eee
+
+}
+
+/*.rose {
+    opacity: 0.0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.rose:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}​*/
+
+.appears{
+
+  opacity: 1.0;
+  transition: opacity .99s ease-in-out;
+  -moz-transition: opacity .99s ease-in-out;
+  -webkit-transition: opacity .99s ease-in-out;
 
 }
 
