@@ -70,6 +70,12 @@
 
 }
 
+.linkClass {
+  color: #000;
+  transition: background 0.1s linear;
+}
+
+
 .linkClass:hover {
 
   background-color: #eee
