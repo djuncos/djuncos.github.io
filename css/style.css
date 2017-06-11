@@ -16,14 +16,23 @@
   opacity: 0.0;
   z-index: 0;
   opacity: 0.0;
-  transition: opacity .99s ease-in-out;
-  -moz-transition: opacity .99s ease-in-out;
-  -webkit-transition: opacity .99s ease-in-out;
+  transition: opacity .75s ease-in-out;
+  -moz-transition: opacity .75s ease-in-out;
+  -webkit-transition: opacity .75s ease-in-out;
 }
 
 .oldMan{
 
   font-family: OldManEloquentW01-Reg;
+}
+
+#droplet{
+
+  position: absolute; 
+  z-index: 2;
+  left: 69%;
+  top:0%;
+
 }
 
 @font-face {
@@ -76,13 +85,14 @@
 
 .linkClass {
   color: #000;
-  transition: background 0.18s linear;
+  transition: background 0.16s linear;
 }
 
 
 .linkClass:hover {
 
-  background-color: #eee
+  background-color: #eee;
+  cursor:pointer;
 
 }
 
@@ -102,9 +112,9 @@
 .appears{
 
   opacity: 1.0;
-  transition: opacity .99s ease-in-out;
-  -moz-transition: opacity .99s ease-in-out;
-  -webkit-transition: opacity .99s ease-in-out;
+  transition: opacity .75s ease-in-out;
+  -moz-transition: opacity .75s ease-in-out;
+  -webkit-transition: opacity .75s ease-in-out;
 
 }
 
