@@ -7,10 +7,13 @@
     $('.parallax2').parallax();
 
     $(window).scroll(function() {
-		  var scrollTop = $(this).scrollTop();
+		  // var scrollTop = $(this).scrollTop();
 
 			
-
+		  $(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+		});
 
 
 
@@ -44,6 +47,10 @@
        function(){ $('#roseAfter').addClass('appears') },
        function(){ $('#roseAfter').removeClass('appears') }
 	)
+
+	
+
+
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

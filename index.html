@@ -10,7 +10,7 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
-    <link rel="icon" href="img/quill_pen-512.png">
+    <link rel="icon" href="img/key01.png">
   </head>
   <body style="font-family: BenjaminFranklin;" class="parchment2">
     <div class="navbar-fixed">
@@ -21,9 +21,10 @@
             <li><a class="center-align black-text light" href="https://github.com/djuncos"><i class="ike fa fa-github-square fa_custom fa-2x" aria-hidden="true"></i></a>
             </li>
             <li><a class="center-align black-text light" href="https://www.linkedin.com/in/daniel-juncos/"><i class="ike fa fa-linkedin-square fa_custom fa-2x" aria-hidden="true"></i></a></li>
-            <li><a class="center-align black-text light" href=""><p class="ike">Portfolio</p></a></li>
-            <li><a class="center-align black-text light" href=""><p class="ike">Skills</p></a></li>
-            <li><a class="center-align black-text light" href=""><p class="ike">Links</p></a></li>
+            <li><a class="center-align black-text light anchorLink" id="anchor1" href="#portfolio"><p class="ike">Portfolio</p></a></li>
+           <!--  <a href="#myAnchor" rel="" id="anchor1" class="anchorLink">Link to the anchor</a> -->
+            <li><a class="center-align black-text light anchorLink" id="anchor2" href="#skills"><p class="ike">Skills</p></a></li>
+            <li><a class="center-align black-text light anchorLink" id="anchor3" href="#end"><p class="ike">Links</p></a></li>
           </ul>
           <ul id="nav-mobile" class="side-nav">
             <li><a href="#">Navbar Link</a></li>
@@ -41,7 +42,7 @@
             <div class="center" >
               <img src="img/line2.png">
             </div>
-            <p style="text-align:justify;">THIS SITE IS STILL UNDER CONSTRUCTION, consectetur adipiscing elit. Nullam eu ex vulputate, sollicitudin orci vitae, tempus lacus. Donec a consequat tellus. Nam in interdum lorem. Phasellus dapibus, purus eu sodales scelerisque, neque lorem commodo elit, eu mattis ligula risus ac sapien. Donec efficitur, risus non finibus malesuada, dui massa mattis lacus, id efficitur..<p>
+            <p style="text-align:justify;">THIS SITE IS STILL UNDER CONSTRUCTION, Patterns occur in nature, etc., sollicitudin orci vitae, tempus lacus. Donec a consequat tellus. Nam in interdum lorem. Phasellus dapibus, purus eu sodales scelerisque, neque lorem commodo elit, eu mattis ligula risus ac sapien. Donec efficitur, risus non finibus malesuada, dui massa mattis lacus, id efficitur..<p>
           </div>
         </div>
       </div>
@@ -57,6 +58,7 @@
     <div class="container">
       <div class="section">
         <div class="row">
+        <a id="portfolio"></a>
           <h3 class="center">Portfolio</h3>
           <div style="height: auto; position: relative; width: 100%; display: inline-block; margin: 0 auto;">
             <h5 class="center">{Front End Projects}</h5>  
@@ -130,7 +132,7 @@
                   </div>
                 </a>
                 <div class="card-reveal" style="transform: translateY(-100%);">
-                  <span class="card-title grey-text text-darken-4"><i class="material-icons">close</i><a class="right card-title linkClass" href="/cookies/index.html" style="color: inherit; border-radius: 3px;"><img src="img/cookie2.png" style="color-interpolation-filters: sRGB;"></img></a></span><p class="light" style="font-size: 15px;">Blah, blah, blah...</p>   
+                  <span class="card-title grey-text text-darken-4"><i class="material-icons">close</i><a class="right card-title linkClass" href="/cookies/index.html" style="color: inherit; border-radius: 3px;"><img src="img/cookie2.png" style="color-interpolation-filters: sRGB;"></img></a></span><p class="light" style="font-size: 15px;">This is a basic exercise in using cookies to recall information entered into a form.  My version, however, does not only recall the cookies clicked, but as well the order in which they were clicked.</p>   
                 </div>                 
               </div>
             </div>       
@@ -220,26 +222,27 @@
       <div class="section">
         <div class="row">
           <div class="row">
+          <a id="skills"></a>    
             <h3 class="center">Development Skills</h3>
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center black-text"><i class="material-icons">local_parking</i></h2>
-                <h5 class="center">Front End</h5>
-                <p class="light center-align">HTML | CSS | JavaScript | jQuery | C++ | C# | .NET Core | Bootstrap | Ruby | Sinatra | Rails | LaTex</p>
+                <h4 class="center black-text"><img class="material-icons" src="img/world02.png" style="height: 35px;"></h4>
+                <h5 class="center">Programming <br>Languages</h5> 
+                <p class="light center-align" style="font-size: 17px; color: black;">JavaScript || C++ || C# || Ruby || SQLite3</p>
               </div>
             </div>
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center black-text"><i class="material-icons">local_parking</i></h2>
-                <h5 class="center">Front End</h5>
-                <p class="light center-align">HTML | CSS | JavaScript | jQuery | C++ | C# | Bootstrap | Ruby | Sinatra | Rails | LaTex</p>
+                <h4 class="center black-text"><img class="material-icons" src="img/quill02.png" style="height: 35px;"></h4>
+                <h5 class="center">Markup<br>Languages</h5>
+                <p class="light center-align" style="font-size: 17px;">HTML5 || CSS3 || SASS || LaTex</p>
               </div>
             </div>
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center black-text"><i class="material-icons">local_parking</i></h2>
-                <h5 class="center">Front End</h5>
-                <p class="light center-align">HTML | CSS | JavaScript | jQuery | C++ | C# | Bootstrap | Ruby | Sinatra | Rails | LaTex</p>
+                <h4 class="center black-text"><img class="material-icons" src="img/books01.png" style="height: 35px;"></h4>
+                <h5 class="center">Frameworks & <br>Libraries</h3>
+                <p class="light center-align" style="font-size: 17px;">jQuery || .NET Core  || Bootstrap || Sinatra || Rails</p>
               </div>
             </div>
           </div>
@@ -271,12 +274,7 @@
     </div>
     <div class="container">
       <div class="section">
-        <div class="row">
-          <h3 class="center">Skills</h3>
-          <div class="col s12 center">
-            <h6 class="center-align light">HTML | CSS | JavaScript | jQuery | C++ | C# | Bootstrap | Ruby | Sinatra | Rails</h6>
-          </div>
-        </div>
+        <a id="end"></a>
         <div class="row">
           <h3 class="center">Master's Thesis</h3>
           <div class="col s12 center">
