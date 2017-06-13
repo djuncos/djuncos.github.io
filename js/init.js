@@ -48,6 +48,14 @@
        function(){ $('#roseAfter').removeClass('appears') }
 	)
 
+	$("#trigger2").mouseenter(function() {
+	    $('#droplet').css("top", "+40%");
+
+	// }).mouseleave(function() {
+	//      $(this).css("background", "00F").css("border-radius", "0px");
+	     
+	});
+
 	
 
 
