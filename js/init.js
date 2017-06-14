@@ -21,10 +21,18 @@
 		var lower = zero-200;
 
 		var h = 2400;
-		var a = 1/(one-zero);
+		// var a = 1/(one-zero);
+
 		// var a = 1/(Math.pow(one-h,2)-Math.pow(zero-h,2));
 
 		var k = (0-a)*Math.pow(zero-h,2);
+
+		var coeff = .8;
+		var turnX = 2100;
+		var turnY = (coeff)*(turnX - 1600)/(800);
+		var a = (1-turnY)/Math.pow(2400-turnX,2);
+
+
 
 
 
@@ -36,8 +44,22 @@
 
 		// var fOfX = (0.46)*((Math.pow(x-2000,3)/(10*Math.pow(10,7)))-(.9)+(x/Math.pow(10,3)));
 
-		var fOfX = (.9)*(x-1600)/800	
+		// var fOfX = (.7)*(x-1600)/800	
 		// var fOfX = a*Math.pow(scrollTop-h,2)+k;
+
+		var fOfX
+
+		if(x<turnX){
+
+			fOfX = (coeff)*(x-1600)/800;
+
+		}else{
+
+			fOfX = a*(Math.pow(x-turnX,2))+turnY;
+
+
+		}
+
 
 		var percent = 100*fOfX;
 
