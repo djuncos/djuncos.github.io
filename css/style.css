@@ -31,7 +31,11 @@
   position: absolute; 
   z-index: 2;
   left: 69%;
-  top:0%;
+  top:-40%;
+  /*transform: translateX(76.5%);*/
+  /*transform: translateY(550%);*/
+  /*transform: translate(76.5%,-600%);*/
+
 
 }
 
