@@ -32,6 +32,7 @@
 		var turnY = (coeff)*(turnX - 1600)/(800);
 		var a = (1-turnY)/Math.pow(2400-turnX,2);
 
+		// var a = coeff/()
 
 
 
@@ -148,6 +149,13 @@
        function(){ $('#roseAfter').addClass('appears') },
        function(){ $('#roseAfter').removeClass('appears') }
 	)
+
+	$('.triggerAgain').hover(
+       function(){ $('#guitarAfter').addClass('appears') },
+       function(){ $('#guitarAfter').removeClass('appears') }
+	)
+
+
 
 	// $("#trigger2").mouseenter(function() {
 	//     $('#droplet').css("top", "+40%");
