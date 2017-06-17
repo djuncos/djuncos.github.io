@@ -42,6 +42,15 @@
 
 }
 
+.franklin{
+
+  position: absolute; 
+  z-index: 3;
+  left: 5%;
+  height: 40%;
+  bottom: 50%;
+}
+
 .marqueeLi{
 
   
