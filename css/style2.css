@@ -130,10 +130,10 @@ nav{
 
 }
 
-.four{
+.eight{
 	display: none;
 }
-.eight{
+.nine{
 	display: none;
 }
 .eleven{
@@ -151,42 +151,42 @@ nav{
 	.lineClass{
 		width: 80%;
 	}
-	.original{
-		display: none; 
-	}
-	.four{
+	.eight{
 		display: none;
 	}
-	.eight{
+	.nine{
 		display: none;
 	}
 	.eleven{
 		display: block;
 	}
+	.original{
+		display: none;
+	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   	.marqueeLi{
 	  font-size: 2em; 
 	}
 	.lineClass{
 		width: 60%;
 	}
-	.original{
-		display: none; 
-	}
-	.four{
+	.eight{
 		display: none;
 	}
-	.eight{
+	.nine{
 		display: block;
 	}
 	.eleven{
 		display: none;
 	}
+	.original{
+		display: none;
+	}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
    	.daniel { 
 	    margin-right:0;
 	  /*  margin-left: 20%;*/
@@ -203,10 +203,10 @@ nav{
 	    clear: left;
   	}
   	.marqueeLi{
-	  font-size: 1.5em;
+	  font-size: 3em;
 	  padding: 1px;
 	  width: 40px;
-	  height: 20px;
+	  height: 40px;
 	  margin: 1px; 
 	  line-height: 20px;
 	}
@@ -214,10 +214,10 @@ nav{
 		display: none;
 	}*/
 	.wrapper{
-		width: 55%;
-		height: 100px;
+		width: 50%;
+		height: 200px;
 		float: right;
-		margin-right: 2%;
+		margin-right: 5%;
 	}
 	.lineMobile{
 		display: initial;
@@ -229,19 +229,19 @@ nav{
 	}
 	.marqueeContatiner{
 
-		min-height: 1em;
+		min-height: 4em;
 
 	}
-	.original{
-		display: none; 
-	}
-	.four{
+	.eight{
 		display: block;
 	}
-	.eight{
+	.nine{
 		display: none;
 	}
 	.eleven{
+		display: none;
+	}
+	.original{
 		display: none;
 	}
 }
