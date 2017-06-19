@@ -51,7 +51,7 @@ nav{
 .wrapper{
 
 	width: 90%;
-	border: solid blue 1px;
+	/*border: solid blue 1px;*/
 	height: auto;
 	min-height: 5em;
 	margin: 0 auto;
@@ -62,12 +62,12 @@ nav{
     width: 80%; 
     min-height: 4.5em;
     margin-left: 2em;
-    outline: solid black 1px;
+   /* outline: solid black 1px;*/
 }
 
 .daniel{
 	width: 39%;
-	border: solid blue 1px;
+	/*border: solid blue 1px;*/
 	float: left;
 }
 
@@ -80,8 +80,8 @@ nav{
 
 .juncos{
 	width: 39%;
-	border: solid green 1px;
-	float: right;
+	/*border: solid green 1px;
+*/	float: right;
 	display: inline-block;
 }
 
@@ -118,7 +118,7 @@ nav{
   font-weight: 300px;
   font-size: 4em;
   text-align: center; 
-  outline: solid red 1px;
+ /* outline: solid red 1px;*/
 }
 
 .lineMobile{
@@ -187,13 +187,16 @@ nav{
 }
 
 @media screen and (max-width: 800px) {
+	.franklin{
+		min-width: 200px;
+	}
    	.daniel { 
 	    margin-right:0;
 	  /*  margin-left: 20%;*/
 	    display: inline; 
   	}
   	.space{
-		font-size: 1.5em;
+		font-size: 2em;
 		float: left;
 		display: block;
 		min-width: 5px;
@@ -215,21 +218,24 @@ nav{
 	}*/
 	.wrapper{
 		width: 50%;
-		height: 200px;
+		height: auto;
 		float: right;
 		margin-right: 5%;
+		/*border: solid blue 1px;*/
 	}
 	.lineMobile{
 		display: initial;
-		width: 50%;
-		/*margin-top: 60%;*/
+		width: 6em;
+		margin-left: 50%;
 	}
+
 	.lineClass{
 		display: none;
 	}
-	.marqueeContatiner{
+	.marqueeContainer{
 
-		min-height: 4em;
+		margin-left: 0;
+		margin-top: 10%;
 
 	}
 	.eight{
