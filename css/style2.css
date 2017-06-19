@@ -1,0 +1,198 @@
+
+
+body{
+
+	font-family: BenjaminFranklin;
+	background-image: url("../img/longCover15.jpg");
+  	background-size: 100%;
+  	background-repeat: repeat;
+
+}
+
+@font-face {
+  font-family: 'BenjaminFranklin';
+  src: url('../css/Benjamin-Franklin.ttf.eot');
+  src: url("../css/Benjamin-Franklin.ttf.woff") format("woff"),
+    url("../css/Benjamin-Franklin.ttf.svg") format("svg");
+}
+
+nav{
+
+  background-image: url("../img/top25.jpg");
+  background-size: 100%;
+
+}
+
+.myLogo{
+
+	font-size: 1.8rem! important;
+
+}
+
+.franklin{
+	position: absolute; 
+	z-index: 3;
+	height: 42%;
+	width: 30%;
+	min-width: 150px;
+	/*outline: solid black 1px;*/
+	background-image: url("../img/franklin01.png");
+	background-size: contain;
+	background-position: left top ;
+	background-repeat: no-repeat;
+	left: 5%;
+	top: 10%;
+}
+
+.period{
+	display: initial;
+}
+
+.wrapper{
+
+	width: 90%;
+	border: solid blue 1px;
+	height: auto;
+	min-height: 5em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.marqueeContainer{
+    width: 80%; 
+    min-height: 4.5em;
+    margin-left: 2em;
+    outline: solid black 1px;
+}
+
+.daniel{
+	width: 39%;
+	border: solid blue 1px;
+	float: left;
+}
+
+.space{
+	font-size: 4em;
+	float: left;
+	display: block;
+	min-width: 5px;
+}
+
+.juncos{
+	width: 39%;
+	border: solid green 1px;
+	float: right;
+	display: inline-block;
+}
+
+
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.space-between { 
+  -webkit-justify-content: space-between; 
+  justify-content: space-between; 
+} 
+
+.marqueeLi{
+  padding: 5px;
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+  
+  line-height: 50px;
+  color: black;
+  font-weight: 300px;
+  font-size: 4em;
+  text-align: center; 
+  outline: solid red 1px;
+}
+
+.lineMobile{
+
+	display: none;
+}
+
+.lineClass{
+
+}
+
+@media screen and (max-width: 1100px) {
+  	.marqueeLi{
+	  font-size: 3em; 
+	}
+	.lineClass{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+  	.marqueeLi{
+	  font-size: 2em; 
+	}
+	.lineClass{
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+   	.daniel { 
+	    margin-right:0;
+	  /*  margin-left: 20%;*/
+	    display: inline; 
+  	}
+  	.space{
+		font-size: 1.5em;
+		float: left;
+		display: block;
+		min-width: 5px;
+	}
+  	.juncos { 
+	    float: left;
+	    clear: left;
+  	}
+  	.marqueeLi{
+	  font-size: 1.5em;
+	  padding: 1px;
+	  width: 40px;
+	  height: 20px;
+	  margin: 1px; 
+	  line-height: 20px;
+	}
+	/*.period{
+		display: none;
+	}*/
+	.wrapper{
+		width: 55%;
+		height: 100px;
+		float: right;
+		margin-right: 2%;
+	}
+	.lineMobile{
+		display: initial;
+		width: 50%;
+		/*margin-top: 60%;*/
+	}
+	.lineClass{
+		display: none;
+	}
+	.marqueeContatiner{
+
+		min-height: 1em;
+
+	}
+}
+
