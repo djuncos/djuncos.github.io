@@ -107,13 +107,13 @@ h1.marqueeLi{
   /*background: lightgreen;*/
 }
 
-/*.marqueeH1{
+.marqueeH1{
 
     width: 100%;
     display: inline;
     text-justify: inter-word;
 }
-*/
+
 .marqueeSpan{
 
 
