@@ -130,12 +130,38 @@ nav{
 
 }
 
+.four{
+	display: none;
+}
+.eight{
+	display: none;
+}
+.eleven{
+	display: none;
+}
+.original{
+	display: block;
+}
+
+
 @media screen and (max-width: 1100px) {
   	.marqueeLi{
 	  font-size: 3em; 
 	}
 	.lineClass{
 		width: 80%;
+	}
+	.original{
+		display: none; 
+	}
+	.four{
+		display: none;
+	}
+	.eight{
+		display: none;
+	}
+	.eleven{
+		display: block;
 	}
 }
 
@@ -145,6 +171,18 @@ nav{
 	}
 	.lineClass{
 		width: 60%;
+	}
+	.original{
+		display: none; 
+	}
+	.four{
+		display: none;
+	}
+	.eight{
+		display: block;
+	}
+	.eleven{
+		display: none;
 	}
 }
 
@@ -193,6 +231,18 @@ nav{
 
 		min-height: 1em;
 
+	}
+	.original{
+		display: none; 
+	}
+	.four{
+		display: block;
+	}
+	.eight{
+		display: none;
+	}
+	.eleven{
+		display: none;
 	}
 }
 
