@@ -62,7 +62,7 @@ nav{
     width: 80%; 
     min-height: 4.5em;
     margin-left: 2em;
-   /* outline: solid black 1px;*/
+    /*outline: solid black 1px;*/
 }
 
 .daniel{
@@ -126,7 +126,18 @@ nav{
 	display: none;
 }
 
+.submarqueeMobile{
+
+	display: none;
+}
+
 .lineClass{
+
+}
+
+.submarquee{
+
+  font-style: italic;
 
 }
 
@@ -230,6 +241,16 @@ nav{
 	}
 
 	.lineClass{
+		display: none;
+	}
+	.submarqueeMobile{
+
+		display: initial;
+		width: 6em;
+		margin-left: 50%;
+	}
+
+	.submarquee{
 		display: none;
 	}
 	.marqueeContainer{
