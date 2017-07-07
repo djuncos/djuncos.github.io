@@ -3,3 +3,18 @@
   width: 100%;
 
 }
+
+.date{
+
+  font-style: italic;
+  font-weight: 500;
+
+}
+
+.due{
+
+  width: 200px;
+  border: solid black 1px;
+  float: right;
+
+}
