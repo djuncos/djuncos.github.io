@@ -13,8 +13,42 @@
 
 .due{
 
-  width: 200px;
-  border: solid black 1px;
-  float: right;
+ /* width: 200px;*/
+  /*border: solid black 1px;*/
+  border-radius: 5px;
+  /*float: right;*/
 
+}
+
+.dueStuff{
+
+  border-radius: 5px;
+
+}
+
+.cover{
+
+  /*width: 200px;*/
+  /*border: solid black 1px;*/
+  border-radius: 5px;
+ /* float: right;*/
+
+}
+
+.coverStuff{
+
+  border-radius: 5px;
+
+}
+
+.assigned{
+
+  border-radius: 5px;
+
+}
+
+.assignedStuff{
+
+  border-radius: 5px;
+  
 }
