@@ -51,7 +51,7 @@ nav{
 .wrapper{
 
 	width: 90%;
-	/*border: solid blue 1px;*/
+	border: solid blue 1px;
 	height: auto;
 	min-height: 5em;
 	margin: 0 auto;
@@ -138,6 +138,7 @@ nav{
 .submarquee{
 
   font-style: italic;
+   outline: solid red 1px;
 
 }
 
@@ -156,8 +157,17 @@ nav{
 
 
 @media screen and (max-width: 1100px) {
+	.wrapper{
+
+	}
   	.marqueeLi{
 	  font-size: 3em; 
+	}
+	.submarquee{
+
+	  height: 100px;
+	  position: fixed;
+
 	}
 	.lineClass{
 		width: 80%;
@@ -178,7 +188,10 @@ nav{
 
 @media screen and (max-width: 900px) {
   	.marqueeLi{
-	  font-size: 2em; 
+	  font-size: 2.85em; 
+	}
+	.submarquee{
+	  height: 70px;
 	}
 	.lineClass{
 		width: 60%;
@@ -203,7 +216,6 @@ nav{
 	}
    	.daniel { 
 	    margin-right:0;
-	  /*  margin-left: 20%;*/
 	    display: inline; 
   	}
   	.space{
@@ -223,42 +235,41 @@ nav{
 	  height: 40px;
 	  margin: 1px; 
 	  line-height: 20px;
+	  /*border: solid yellow 1px;*/
 	}
-	/*.period{
-		display: none;
-	}*/
+
 	.wrapper{
-		width: 50%;
-		height: auto;
-		float: right;
-		margin-right: 5%;
-		/*border: solid blue 1px;*/
+	 
+	}
+	.marqueeContainer{
+
+		border: solid green 1px;
+		/*border: solid transparent 1px;*/
+		width: auto;
+		height: 200px;
+		margin-top: 5%;
+		margin-left: 40%;
+	}
+	.submarqueeMobile{
+		display: block;
+		border: solid orange 1px;
+		height: 65%;
+		margin-top: 85px;
 	}
 	.lineMobile{
-		display: initial;
-		width: 6em;
-		margin-left: 50%;
+		display: block;
+		border: solid red 1px;
+		height: 30%;
+		width: 14.5em;
 	}
 
 	.lineClass{
 		display: none;
 	}
-	.submarqueeMobile{
-
-		display: initial;
-		width: 6em;
-		margin-left: 50%;
-	}
-
 	.submarquee{
 		display: none;
 	}
-	.marqueeContainer{
 
-		margin-left: 0;
-		margin-top: 10%;
-
-	}
 	.eight{
 		display: block;
 	}
