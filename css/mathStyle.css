@@ -25,7 +25,7 @@
 
   border-radius: 5px;
   /*border: solid red 1px;*/
-  margin-left: 5px;
+  margin-left: 1em;
 
 }
 
@@ -41,7 +41,7 @@
 .coverStuff{
 
   border-radius: 5px;
-  margin-left: 5px;
+  margin-left: 1em;
 
 }
 
@@ -54,7 +54,7 @@
 .assignedStuff{
 
   border-radius: 5px;
-  margin-left: 5px;
+  margin-left: 1em;
 
 }
 
