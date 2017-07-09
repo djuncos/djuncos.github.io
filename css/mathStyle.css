@@ -78,9 +78,10 @@ div{
 
 }
 
-p{
 
-  display: inline! important;
-  padding-left: 10px;
 
+.announce{
+
+  margin: 0em 2.0em .25em 0em;
+  border-radius: 5px;
 }
