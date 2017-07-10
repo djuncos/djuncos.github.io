@@ -32,7 +32,7 @@ nav{
 .franklin{
 	position: absolute; 
 	z-index: 3;
-	height: 42%;
+	height: 40%;
 	width: 30%;
 	min-width: 150px;
 	/*outline: solid black 1px;*/
@@ -50,7 +50,7 @@ nav{
 
 .wrapper{
 
-	width: 90%;
+	width: 100%;
 	border: solid blue 1px;
 	height: auto;
 	min-height: 5em;
@@ -69,6 +69,7 @@ nav{
 	width: 39%;
 	/*border: solid blue 1px;*/
 	float: left;
+	margin-top: 1.5em;
 }
 
 .space{
@@ -83,6 +84,7 @@ nav{
 	/*border: solid green 1px;
 */	float: right;
 	display: inline-block;
+	margin-top: 1.5em;
 }
 
 
@@ -137,9 +139,20 @@ nav{
 
 .submarquee{
 
-  font-style: italic;
+   font-style: italic;
    outline: solid red 1px;
+   display: inline-block;
+   width: 100%;
 
+
+
+}
+
+.blurb{
+
+	border: solid transparent 1px;
+	display: inline-block;
+	border: solid white 1px;
 }
 
 .eight{
@@ -157,6 +170,9 @@ nav{
 
 
 @media screen and (max-width: 1100px) {
+	.franklin{
+		height: 35%;
+	}
 	.wrapper{
 
 	}
@@ -166,8 +182,15 @@ nav{
 	.submarquee{
 
 	  height: 100px;
-	  position: fixed;
+	  position: relative;
+	  display: inline-block;
 
+	}
+	.blurb{
+		border: solid transparent 1px;
+		display: inline-block;
+		position: relative;
+		border: solid white 1px;
 	}
 	.lineClass{
 		width: 80%;
@@ -216,6 +239,7 @@ nav{
 	}
    	.daniel { 
 	    margin-right:0;
+	    margin-top: 0;
 	    display: inline; 
   	}
   	.space{
@@ -227,6 +251,7 @@ nav{
   	.juncos { 
 	    float: left;
 	    clear: left;
+	    margin-top: 0;
   	}
   	.marqueeLi{
 	  font-size: 3em;
@@ -239,6 +264,8 @@ nav{
 	}
 
 	.wrapper{
+
+		width: 90%;
 	 
 	}
 	.marqueeContainer{
