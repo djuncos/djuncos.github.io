@@ -232,9 +232,15 @@ nav{
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
+}
+
+.wheelClass{
+	font-size: 140%;
+	margin-left: -.4em! important;
+}
 
 @media screen and (max-width: 1100px) {
 	.franklin{
@@ -274,6 +280,20 @@ nav{
 	.original{
 		display: none;
 	}
+	.nice-header{
+		width: 120%;
+	}
+	.header-overlay{
+		width: 120%;
+	}
+	.parallax-container {
+	  min-height: 500px;
+	}
+	.wheelClass{
+	  font-size: 120%;
+	  margin-right: -.8em! important;
+	}
+
 }
 
 @media screen and (max-width: 900px) {
@@ -302,9 +322,12 @@ nav{
 	    position: absolute;
 	    top: 40%;
 	  }
-	  #index-banner .section {
+	#index-banner .section {
 	    top: 10%;
 	  }
+	.parallax-container {
+	  min-height: 410px;
+	}
 }
 
 @media screen and (max-width: 800px) {
