@@ -410,5 +410,11 @@ nav{
 	.original{
 		display: none;
 	}
+	.card{
+
+		width: 40%;
+		height: auto;
+		left: 2em;
+	}
 }
 
