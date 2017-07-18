@@ -416,5 +416,9 @@ nav{
 		height: auto;
 		left: 2em;
 	}
+	.porto{
+
+		display: none;
+	}
 }
 
