@@ -106,7 +106,7 @@ nav{
 .wrapper{
 
 	width: 100%;
-	border: solid blue 1px;
+	/*border: solid blue 1px;*/
 	height: auto;
 	min-height: 5em;
 	margin: 0 auto;
@@ -188,8 +188,12 @@ nav{
 	display: none;
 }
 
-.lineClass{
-
+.mobileLineClass{
+	 justify-content: center; 
+/*	 display: flex;*/
+	 height: auto;
+	 display: none; 
+	 /*border: solid blue 1px;*/
 }
 
 .nonMobileClass{
@@ -213,23 +217,31 @@ nav{
 
 	font-size: 1.4em;
 }
-
-.submarquee{
-
-   font-style: italic;
-   outline: solid red 1px;
-   display: inline-block;
-   width: 100%;
-
-
+.skillsFont{
+	padding-left: 1.7em;
+	padding-right: 1.7em;
+	justify-content: center! important;
+	/*border: solid orange 1px;*/
+	height: 17em;
 
 }
-
+.submarquee{
+   font-style: italic;
+   /*outline: solid red 1px;*/
+   display: inline-block;
+   width: 100%;
+}
 .blurb{
-
 	border: solid transparent 1px;
 	display: inline-block;
-	border: solid white 1px;
+	/*border: solid white 1px;*/
+}
+
+#droplet{
+  position: absolute; 
+  z-index: 2;
+  left: 69%;
+  top:-40%;
 }
 
 .eight{
@@ -285,10 +297,17 @@ nav{
 		border: solid transparent 1px;
 		display: inline-block;
 		position: relative;
-		border: solid white 1px;
+		/*border: solid white 1px;*/
 	}
 	.lineClass{
 		width: 80%;
+	}
+	#droplet{
+	  left: 73%;
+	  top:0%;
+	}
+	.languageFont{
+		font-size: 1.6em;
 	}
 	.eight{
 		display: none;
@@ -365,6 +384,9 @@ nav{
 	.mobileClass{
 		display: initial;
 	}
+	.mobileLineClass{
+	 display: flex; 
+	}
 	.franklin{
 		min-width: 200px;
 	}
@@ -401,8 +423,8 @@ nav{
 	}
 	.marqueeContainer{
 
-		border: solid green 1px;
-		/*border: solid transparent 1px;*/
+		/*border: solid green 1px;*/
+		border: solid transparent 1px;
 		width: auto;
 		height: 200px;
 		margin-top: 5%;
@@ -410,13 +432,13 @@ nav{
 	}
 	.submarqueeMobile{
 		display: block;
-		border: solid orange 1px;
+		/*border: solid orange 1px;*/
 		height: 65%;
 		margin-top: 85px;
 	}
 	.lineMobile{
 		display: block;
-		border: solid red 1px;
+		/*border: solid red 1px;*/
 		height: 30%;
 		width: 14.5em;
 	}
@@ -428,10 +450,11 @@ nav{
 		display: none;
 	}
 	.parallax-container{
-
 		display: none;
 	}
-
+	.development{
+		font-size: 2em;
+	}
 	.eight{
 		display: block;
 	}
