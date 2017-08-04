@@ -192,6 +192,28 @@ nav{
 
 }
 
+.nonMobileClass{
+
+	display: initial;
+}
+
+.mobileClass{
+
+	display: none;
+}
+.mobileRow{
+
+	width: 49%;
+	/*outline: solid black 1px;*/
+	height: 19em;
+	display: inline-block;
+}
+
+.cardFont{
+
+	font-size: 1.4em;
+}
+
 .submarquee{
 
    font-style: italic;
@@ -328,9 +350,21 @@ nav{
 	.parallax-container {
 	  min-height: 410px;
 	}
+	.cardFont{
+		font-size: 1.1em;
+	}
 }
 
 @media screen and (max-width: 800px) {
+	.container{
+		overflow: hidden; 
+	}
+	.nonMobileClass{
+		display: none;
+	}
+	.mobileClass{
+		display: initial;
+	}
 	.franklin{
 		min-width: 200px;
 	}
