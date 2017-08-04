@@ -207,7 +207,7 @@ nav{
 }
 .mobileRow{
 
-	width: 49%;
+	width: 48%;
 	/*outline: solid black 1px;*/
 	height: 19em;
 	display: inline-block;
@@ -453,7 +453,7 @@ nav{
 		display: none;
 	}
 	.development{
-		font-size: 2em;
+		font-size: 1.8em;
 	}
 	.eight{
 		display: block;
