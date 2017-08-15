@@ -212,10 +212,17 @@ nav{
 	height: 19em;
 	display: inline-block;
 }
-
 .cardFont{
-
 	font-size: 1.4em;
+	vertical-align: middle;
+}
+.cardFontWheel{
+	font-size: 1.25em;
+}
+.cardDisplay{
+	border: solid red 1px;
+	width: 100%! important;
+	max-height: 1.4em;
 }
 .skillsFont{
 	padding-left: 1.8em;
@@ -370,7 +377,7 @@ nav{
 	  min-height: 410px;
 	}
 	.cardFont{
-		font-size: 1.1em;
+		/*font-size: 1.1em;*/
 	}
 }
 
