@@ -116,8 +116,16 @@ nav{
 .marqueeContainer{
     width: 80%; 
     min-height: 4.5em;
-    margin-left: 2em;
+    /*margin-left: 2em;*/
     /*outline: solid black 1px;*/
+    margin: 0 auto;
+    /*margin-left: 1em;*/
+}
+
+.nameClass{
+	width: 100%;
+	height: auto;
+	/*outline: solid purple 1px;*/
 }
 
 .daniel{
@@ -125,6 +133,7 @@ nav{
 	/*border: solid blue 1px;*/
 	float: left;
 	margin-top: 1.5em;
+	margin-left: -5%;
 }
 
 .space{
@@ -136,10 +145,11 @@ nav{
 
 .juncos{
 	width: 39%;
-	/*border: solid green 1px;
-*/	float: right;
+	/*border: solid green 1px;*/
+	float: right;
 	display: inline-block;
 	margin-top: 1.5em;
+	margin-right: 5%;
 }
 
 
@@ -214,13 +224,12 @@ nav{
 }
 .cardFont{
 	font-size: 1.4em;
-	vertical-align: middle;
 }
 .cardFontWheel{
 	font-size: 1.25em;
 }
 .cardDisplay{
-	border: solid red 1px;
+	/*border: solid red 1px;*/
 	width: 100%! important;
 	max-height: 1.4em;
 }
@@ -400,7 +409,8 @@ nav{
    	.daniel { 
 	    margin-right:0;
 	    margin-top: 0;
-	    display: inline; 
+	    display: inline;
+	    margin-left: 0%; 
   	}
   	.space{
 		font-size: 2em;
@@ -445,7 +455,7 @@ nav{
 	}
 	.lineMobile{
 		display: block;
-		/*border: solid red 1px;*/
+		border: solid transparent 1px;
 		height: 30%;
 		width: 14.5em;
 	}
