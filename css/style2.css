@@ -208,7 +208,7 @@ nav{
 
 .nonMobileClass{
 
-	display: initial;
+	/*display: initial;*/
 }
 
 .mobileClass{
@@ -522,6 +522,17 @@ nav{
 	.porto{
 
 		display: none;
+	}
+	.cardFontWheel{
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	
+	.cardFontWheel{
+		font-size: 1.2em;
+		/*color: blue;*/
 	}
 }
 
