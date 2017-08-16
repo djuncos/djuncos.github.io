@@ -226,7 +226,7 @@ nav{
 	font-size: 1.4em;
 }
 .cardFontWheel{
-	font-size: 1.25em;
+	font-size: 1.4em;
 }
 .cardDisplay{
 	/*border: solid red 1px;*/
@@ -252,6 +252,20 @@ nav{
 	display: inline-block;
 	/*border: solid white 1px;*/
 }
+#portfolio{
+
+	position: absolute; 
+	top: 160%; 
+	z-index: 2;
+}
+
+#skills{
+
+	position: absolute; 
+	top: 378%; 
+	z-index: 2;
+}
+
 
 #droplet{
   position: absolute; 
@@ -350,6 +364,12 @@ nav{
 	  font-size: 120%;
 	  margin-right: -.8em! important;
 	}
+	#portfolio{
+		top: 145%;
+	}
+	#skills{
+		top: 335%;
+	}
 
 }
 
@@ -385,8 +405,17 @@ nav{
 	.parallax-container {
 	  min-height: 410px;
 	}
+	#portfolio{
+		top: 135%;
+	}
+	#skills{
+		top: 307%;
+	}
 	.cardFont{
 		/*font-size: 1.1em;*/
+	}
+	.cardFontWheel{
+		font-size: 1.3em;
 	}
 }
 
