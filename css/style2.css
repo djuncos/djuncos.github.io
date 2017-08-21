@@ -87,7 +87,7 @@ nav{
 .franklin{
 	position: absolute; 
 	z-index: 3;
-	height: 40%;
+	height: 30%;
 	width: 30%;
 	min-width: 150px;
 	/*outline: solid black 1px;*/
@@ -95,7 +95,7 @@ nav{
 	background-size: contain;
 	background-position: left top ;
 	background-repeat: no-repeat;
-	left: 5%;
+	left: 7%;
 	top: 10%;
 }
 
@@ -254,15 +254,15 @@ nav{
 }
 #portfolio{
 
-	position: absolute; 
-	top: 160%; 
+	/*position: absolute; 
+	top: 160%; */
 	z-index: 2;
 }
 
 #skills{
 
-	position: absolute; 
-	top: 378%; 
+	/*position: absolute; 
+	top: 378%; */
 	z-index: 2;
 }
 
@@ -316,7 +316,7 @@ nav{
 
 @media screen and (max-width: 1100px) {
 	.franklin{
-		height: 35%;
+		/*height: 35%;*/
 	}
 	.wrapper{
 
@@ -508,6 +508,7 @@ nav{
 	}
 	.development{
 		font-size: 1.8em;
+		margin-bottom: 1em;
 	}
 	.eight{
 		display: block;
