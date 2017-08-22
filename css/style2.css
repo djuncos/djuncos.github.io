@@ -87,7 +87,7 @@ nav{
 .franklin{
 	position: absolute; 
 	z-index: 3;
-	height: 30%;
+	height: 24%;
 	width: 30%;
 	min-width: 150px;
 	/*outline: solid black 1px;*/
@@ -489,6 +489,10 @@ nav{
 		/*border: solid orange 1px;*/
 		height: 65%;
 		margin-top: 85px;
+	}
+	.blurb{
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 	.lineMobile{
 		display: block;
