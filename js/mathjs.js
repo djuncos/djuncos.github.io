@@ -9,6 +9,12 @@
 
 $(document).ready(function() {
 
+
+    if(y){
+
+        console.log("true")
+    }
+
     var table = $('#table');
 
     // Table bordered
